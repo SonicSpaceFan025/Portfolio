@@ -5,10 +5,22 @@ body {
         text-align: center;
      }
 
-figure {width:20%;
+section.photoGallery {
+margin:auto;
+padding:2em;
+
+display:flex;
+/* flex-direction:row; */
+/* justify-content:space-around; */
 }
 
-img {width:80%;}
+img {
+width:20%;
+}
+
+img.photoGallery {
+    width:100%
+}
 
 section {
     width:80%;
@@ -21,6 +33,22 @@ body.resume {
     font-family:roman, 'times new roman', times, serif;
     text-align: left;
     }
+    
+h1.resume {
+    color:black;
+}
+
+h1.index {
+    color:magenta;
+}
+
+h2.index {
+    color:#b77dff;
+}
+
+h3.index {
+    color:#2176ff;
+}
 
 img.photo {
     max-width: 200px;
@@ -46,7 +74,7 @@ body.gallery:hover {
   border: 1px solid #777;
 }
 
-body.gallery img {
+body.gallery {
   width: 100%;
   height: auto;
 }
