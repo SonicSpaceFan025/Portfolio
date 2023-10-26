@@ -5,6 +5,11 @@ body {
         text-align: center;
      }
 
+section.reflection {
+    text-align: left;
+    margin:auto;
+}
+
 section.photoGallery {
 margin:auto;
 padding:2em;
@@ -19,7 +24,7 @@ width:20%;
 }
 
 img.photoGallery {
-    width:100%
+    width:100%;
 }
 
 section {
