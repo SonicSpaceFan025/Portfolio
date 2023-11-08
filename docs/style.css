@@ -27,6 +27,18 @@ img.photoGallery {
     width:100%;
 }
 
+img.corpus {
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+figcaption.corpus {
+    text-align:left;
+    flex-direction:row;
+}
+
 section {
     width:80%;
     margin:auto;
