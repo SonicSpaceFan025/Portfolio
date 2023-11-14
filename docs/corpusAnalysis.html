@@ -22,7 +22,7 @@
         </section>
         <h2 class="index">Voyant</h2>
         <section class="photoGallery">
-            <figure>
+            <figure class="left">
                 <img src="images/wordCloud.png" class="corpus"
                     alt="An illustration of words forming a cloud shape" />
                 <figcaption class="corpus">First, I used Voyant to provide visual insights about
@@ -35,7 +35,7 @@
                     uses almost the exact words the most, with some slight differences in how often
                     certain words appear in one file than in the other.</figcaption>
             </figure>
-            <figure>
+            <figure class="right">
                 <img src="images/docInfo.png" class="corpus"
                     alt="Textual information about two documents" />
                 <figcaption class="corpus">As I explored other features of Voyant, I noticed that
@@ -56,7 +56,7 @@
         </section>
         <h3 class="index">KWIC (Keyword in Context)</h3>
         <section class="photoGallery">
-            <figure>
+            <figure class="left">
                 <img src="images/sorts_5.png" class="corpus" alt="Textual information of a phrase" />
                 <figcaption class="corpus">In this section, I inputted the phrase "all sorts of" to
                     see different contexts of that phrase. When I set the context size to 5, I
@@ -64,7 +64,7 @@
                     things ...," and "all sorts of stuff ..." The results' vague text made me not
                     understand much about what the phrases are supposed to explain.</figcaption>
             </figure>
-            <figure>
+            <figure class="right">
                 <img src="images/sorts_10.png" class="corpus"
                     alt="An expanded version of the textual information of the same phrase" />
                 <figcaption class="corpus">After changing the context size to 10 using the same
@@ -79,6 +79,30 @@
                     passage.</figcaption>
             </figure>
         </section>
+        <section class="photoGallery">
+            <figure class="left">
+                <img src="images/this_time_5.png" class="corpus"
+                    alt="Textual information of a two-word phrase" />
+                <figcaption class="corpus">Next, I wanted to see what would happen if I used KWIC on
+                    two-word phrases such as "this time." Starting with context size 5, I found that
+                    many instances of that phrase dealt explaining different times, such as "this
+                    time of year," "this time of day," and "this time of night." With these results,
+                    I thought that these phrases had little to no context despite explicitly
+                    indicating when certain events happened.</figcaption>
+            </figure>
+            <figure class="right">
+                <img src="images/this_time_10.png" class="corpus"
+                    alt="An expanded version of the textual information of a two-word phrase" />
+                <figcaption class="corpus">After increasing the context size to 10, I scrolled
+                    through the results to see better context of every instance of the phrase "this
+                    time." I found that many instances involved better details of different people
+                    and events, such as someone "working in the ER," someone learning to read while
+                    staying with their family "for about seven years," and someone's best product
+                    being difficult to find "this time of year." All these results show that with
+                    this feature, I get to understand more of what certain words or phrases reveal
+                    about different characters or situations within a given passage.</figcaption>
+            </figure>
+        </section>
         <h3 class="index">Clusters</h3>
         <section class="reflection">
             <p>Another feature of AntConc I used to learn more about the two passages is the cluster
@@ -87,26 +111,47 @@
                 of times that phrase appears.</p>
         </section>
         <section class="photoGallery">
-            <figure>
-                <img src="images/years_2-4.png" class="corpus"
+            <figure class="left">
+                <img src="images/years_2-4_sized.png" class="corpus"
                     alt="A table illustrating the frequency of certain phrases" />
                 <figcaption class="corpus">In this feature, I wanted to see how many phrases uses
                     the word "years," as it appeared very frequently in both files, as well as how
                     many times these phrases appear. Here, I set the minimum frequency number to 2
                     and set the cluster size to 4. The resulting phrases showed little to no
                     context, as many of them had vague meanings, such as "years ago I was," "years
-                    old and I," "years of his life," and "years ago we were."</figcaption>
+                    old and I," "years of his life," and "years ago when you."</figcaption>
             </figure>
-            <figure>
+            <figure class="right">
                 <img src="images/years_3-6.png" class="corpus"
                     alt="A shortened table illustrating the frequency the same phrase" />
                 <figcaption class="corpus">After increasing the minimum frequency number to 3 and
                     the cluster size to 6, I found very few phrases, but this time, they showed
                     somewhat more context. One phrase reveals how much time ago something happened
                     ("years ago I do nt"), and another shows how much time passed ("years passed and
-                    my brother and"). Based on this observation, I learned that like with the KWIC
-                    feature, changing the size and frequency in the clusters feature lets me find
-                    deeper context within certain words and phrases, and the larger the cluster
+                    my brother and").</figcaption>
+            </figure>
+        </section>
+        <section class="photoGallery">
+            <figure class="left">
+                <img src="images/this_time_cluster_2-4_cropped.png" class="corpus"
+                    alt="A table illustrating the frequency of a two-word phrase" />
+                <figcaption class="corpus">Curious about what would happen if I inputted a two-word
+                    phrase in the cluster feature, I decided to take the same phrase I used when
+                    using KWIC, "this time," and used the same starting settings for my cluster
+                    size, which is the minimum frequency of 2 and cluster size 4. Just like before,
+                    I found a variety of results, many of which involve a person's intentions such
+                    as "I do" and "I promise." I also found that many of the results
+                    share the rank of #11 because they have the same frequency of 3.</figcaption>
+            </figure>
+            <figure class="right">
+                <img src="images/this_time_cluster_3-6.png" class="corpus"
+                    alt="A shortened version of the table illustrating the frequency of the same two-word phrase" />
+                <figcaption class="corpus">Then, I changed the minimum frequency of 3 and the
+                    cluster size to 6, and I found only three results that all define conditions,
+                    two of which define people's intentions ("This time I [don't]," "This time
+                    [you've] gone too"). Based on these observations, I learned that like with the
+                    KWIC feature, changing the size and frequency in the clusters feature lets me
+                    find deeper context within certain words and phrases, and the larger the cluster
                     size, the more context the phrase reveals.</figcaption>
             </figure>
         </section>

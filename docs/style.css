@@ -100,3 +100,11 @@ figcaption {
   padding: 15px;
   text-align: center;
 }
+
+figure.left {
+    flex: 2;
+}
+
+figure.right {
+    flex: 2;
+}
