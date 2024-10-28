@@ -20,6 +20,15 @@ div{
   background:none;
 }
 
+div.index {
+        width: auto;
+        border: 15px solid magenta;
+        margin: 0 auto;
+        background:white;
+        display: flex;
+        align-items: center;
+}
+
 section.reflection {
     text-align: left;
     margin:auto;
