@@ -39,7 +39,7 @@ margin:auto;
 padding:2em;
 display:flex;
 /* flex-direction:row; */
-/* justify-content:space-around; */
+justify-content:space-around;
 }
 
 img {
@@ -129,4 +129,8 @@ figure.left {
 
 figure.right {
     flex: 2;
+}
+
+.videoContainer {
+    text-align: center;
 }
