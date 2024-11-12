@@ -134,3 +134,8 @@ figure.right {
 .videoContainer {
     text-align: center;
 }
+
+ul.centered-list {
+    list-style-position: inside;
+    padding: 0;
+}
